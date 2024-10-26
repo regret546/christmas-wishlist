@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Mountains+of+Christmas:wght@400;700&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap");
 
 *, ::before, ::after{
   --tw-border-spacing-x: 0;
@@ -560,12 +560,114 @@ html {
   font-family: "Jost", sans-serif;
 }
 
-.bg-black{
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+.flex{
+  display: flex;
 }
 
-.text-pink-700{
+.w-full{
+  width: 100%;
+}
+
+.flex-1{
+  flex: 1 1 0%;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.select-none{
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.list-none{
+  list-style-type: none;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-end{
+  justify-content: flex-end;
+}
+
+.gap-4{
+  gap: 1rem;
+}
+
+.bg-dark-green{
+  --tw-bg-opacity: 1;
+  background-color: hsl(148 48% 29% / var(--tw-bg-opacity));
+}
+
+.bg-light-sky-blue{
+  --tw-bg-opacity: 1;
+  background-color: hsl(200 72% 90% / var(--tw-bg-opacity));
+}
+
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.font-festive{
+  font-family: Mountains of Christmas, cursive;
+}
+
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-\[1\.2rem\]{
+  font-size: 1.2rem;
+}
+
+.font-bold{
+  font-weight: 700;
+}
+
+.font-medium{
+  font-weight: 500;
+}
+
+.tracking-wide{
+  letter-spacing: 0.025em;
+}
+
+.text-golden-orange{
   --tw-text-opacity: 1;
-  color: rgb(190 24 93 / var(--tw-text-opacity));
+  color: hsl(40 93% 57% / var(--tw-text-opacity));
+}
+
+.shadow-crimson-red{
+  --tw-shadow-color: hsl(346, 94%, 31%);
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.transition-colors{
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-300{
+  transition-duration: 300ms;
+}
+
+.text-shadow-sm{
+  text-shadow: 0 1px 2px var(--tw-shadow-color);
+}
+
+.hover\:text-white-mint:hover{
+  --tw-text-opacity: 1;
+  color: hsl(132 100% 99% / var(--tw-text-opacity));
 }
